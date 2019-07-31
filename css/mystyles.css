@@ -1,0 +1,49 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	font-family: lobster 2, lobster, arial;
+}
+
+header {
+	background-color: gray;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+section:after {
+	content: "";
+	display: table
+	clear: both
+}
+
+nav {
+	float:left;
+	width: 30%;
+	height: 70%;
+	background: darkgray;
+	padding: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	float:left;
+	width: 70%;
+	height: 70%;
+	background: lightgray;
+	padding: 10px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: gray;
+	padding: 10px;
+}
